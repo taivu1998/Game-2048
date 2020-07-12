@@ -59,10 +59,10 @@ public class Game2048 extends GraphicsProgram implements Game2048Constants {
      */
     private void setupWindow() {
         logo2048();
-        add (new JButton ("UP"), SOUTH);
-        add (new JButton ("DOWN"), SOUTH);
-        add (new JButton ("LEFT"), SOUTH);
-        add (new JButton ("RIGHT"), SOUTH);
+        add(new JButton ("UP"), SOUTH);
+        add(new JButton ("DOWN"), SOUTH);
+        add(new JButton ("LEFT"), SOUTH);
+        add(new JButton ("RIGHT"), SOUTH);
     }
 
     /* Method: setupArrays() */
@@ -74,7 +74,9 @@ public class Game2048 extends GraphicsProgram implements Game2048Constants {
         gridSquare = new GCompound[DIMENSION][DIMENSION];
         for (int i = 0; i < DIMENSION; i++) {
             for (int j = 0; j < DIMENSION; j++) {
-                gridSquare[i][j] = squareWithNumber((j+1)*SPACE + (j)*SQUARE_SIZE, OFFSET - APPLICATION_SOUTH + (i+1)*SPACE + (i)*SQUARE_SIZE, gridNum[i][j]);
+                gridSquare[i][j] = squareWithNumber((j+1)*SPACE + (j)*SQUARE_SIZE, 
+                                                     OFFSET - APPLICATION_SOUTH + (i+1)*SPACE + (i)*SQUARE_SIZE, 
+                                                     gridNum[i][j]);
                 add(gridSquare[i][j]);
             }
         }   
@@ -352,7 +354,9 @@ public class Game2048 extends GraphicsProgram implements Game2048Constants {
         removeAllSquares();
         for (int i = 0; i < DIMENSION; i++) {
             for (int j = 0; j < DIMENSION; j++) {
-                gridSquare[i][j] = squareWithNumber((j+1)*SPACE + (j)*SQUARE_SIZE, OFFSET - APPLICATION_SOUTH + (i+1)*SPACE + (i)*SQUARE_SIZE, gridNum[i][j]);
+                gridSquare[i][j] = squareWithNumber((j+1)*SPACE + (j)*SQUARE_SIZE, 
+                                                     OFFSET - APPLICATION_SOUTH + (i+1)*SPACE + (i)*SQUARE_SIZE, 
+                                                     gridNum[i][j]);
                 add(gridSquare[i][j]);
             }
         }
