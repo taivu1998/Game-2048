@@ -12,14 +12,15 @@ This program implements a popular interactive game called 2048 in Java.
 
 The project requires the following frameworks:
 
-- Java
+- Java: https://www.java.com/en/
 
-- JDK 8
+- JDK 8: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
-- ACM
+- Java ACM Package: https://cs.stanford.edu/people/eroberts/jtf/
 
-- Eclipse:
+- Eclipse: https://www.eclipse.org/
 
+Java and JDK 8 can be installed by downloading [Homebrew](https://brew.sh/) and running the following commands:
 ```
 brew update
 brew tap homebrew/cask-versions
@@ -29,7 +30,7 @@ brew cask install homebrew/cask-versions/adoptopenjdk8
 
 ## How to Run
 
-Eclipse
+The simplest way to execute the program is downloading [Eclipse](https://www.eclipse.org/), importing the project, and then run it.
 
 ## Authors
 
