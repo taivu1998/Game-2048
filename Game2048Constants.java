@@ -1,6 +1,8 @@
 /*
- * File: GraphicsContest.java
+ * File: Game2048Constants.java
  * --------------------------
+ *
+ * This file contains some constants for the program.
  */
 
 import acm.program.*;

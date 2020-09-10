@@ -1,13 +1,13 @@
 /*
  * File: Game2048.java
  * --------------------------
- * Name: Tai Vu
- * Section Leader: Olivia Gregory
  * 
- * This file will eventually implement the game of 2048. The player plays them game on a 4x4 grid, and the main task is to move numbered tiles to
- * combine them and get bigger numbers. If two squares with identical numbers collide, they will merge into a new square with the sum of the two
- * values. The player win if he or she reaches 2048, although the user can continue to play after attaining that target. The players loses when 
- * there is no way to move the tiles, which means their are no more empty spaces and no pairs of adjacent squares with the same value.
+ * This file implements the game of 2048. The player plays them game on a 4x4 grid, and the main task is 
+ * to move numbered tiles and combine them to get bigger numbers. If two squares with identical numbers 
+ * collide, they will merge into a new square with the sum of the two values. The player win if he or she 
+ * reaches 2048, although the user can continue to play after attaining that target. The players loses when 
+ * there is no way to move the tiles, which means their are no more empty spaces and no pairs of adjacent 
+ * squares with the same value.
  */
 
 import acm.program.*;
